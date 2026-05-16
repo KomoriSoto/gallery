@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Komori Soto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav>
+  <div class="nav-inner">
+    <span class="nav-logo">KS.</span>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<div class="hero">
+  <div>
+    <p class="hero-label">Portfolio</p>
+    <h1>Komori <span>Soto</span></h1>
+    <p class="hero-desc">
+      Django・JSP/Servlet を中心に、AI を組み込んだ Web アプリや<br>
+      ゲーム等を幅広く開発しています。
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">Projects を見る</a>
+      <a href="https://github.com/KomoriSoto" target="_blank" class="btn btn-outline">GitHub</a>
+    </div>
+    <div class="stats-row" style="margin-top: 36px;">
+      <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Projects</div></div>
+      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Deployed Apps</div></div>
+      <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Years Coding</div></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="avatar-box">💻</div>
+  </div>
+</div>
+
+<!-- ── Projects ── -->
+<section id="projects">
+  <h2 class="section-title fade-in">Projects</h2>
+  <p class="section-sub fade-in">これまでに作ったプロジェクトです</p>
+
+  <div class="projects-grid">
+
+    <!-- Smart Training AI -->
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <span class="project-icon">🤸</span>
+        <span class="project-badge badge-dev">⚡ AI</span>
+      </div>
+      <div class="project-name">Smart Training AI</div>
+      <p class="project-desc">
+        カメラ映像から骨格をリアルタイム検出し、スクワット・腕立て伏せを自動カウント。関節角度を解析してフォームの崩れを即座に警告する、ブラウザ完結型 AI トレーニングアプリ。
+      </p>
+      <div class="tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">TensorFlow.js</span>
+        <span class="tag">MoveNet</span>
+        <span class="tag">WebGL</span>
+        <span class="tag">Canvas API</span>
+      </div>
+    </div>
+
+    <!-- TaskNavigation -->
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <span class="project-icon">✅</span>
+        <span class="project-badge badge-dev">🔨 Dev</span>
+      </div>
+      <div class="project-name">TaskNavigation</div>
+      <p class="project-desc">
+        タスク管理と集中力トラッキングを組み合わせた Django 製 Web アプリ。ポモドーロ的な集中セッション記録と、ダッシュボードで進捗を可視化。
+      </p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Django</span>
+        <span class="tag">SQLite</span>
+        <span class="tag">JavaScript</span>
+      </div>
+    </div>
+
+    <!-- Puyo Game -->
+    <div class="project-card fade-in">
+      <div class="project-header">
+        <span class="project-icon">🎮</span>
+        <span class="project-badge badge-dev">🎯 Game</span>
+      </div>
+      <div class="project-name">Puyo Game</div>
+      <p class="project-desc">
+        ブラウザで動くぷよぷよ風パズルゲーム。オリジナルキャラクター「ルナ・ノワール」が登場。HTML5 Canvas でゲームロジックをフルスクラッチ実装。
+      </p>
+      <div class="tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">HTML5 Canvas</span>
+        <span class="tag">CSS</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Skills ── -->
+<section id="skills">
+  <h2 class="section-title fade-in">Skills</h2>
+  <p class="section-sub fade-in">主に使用している技術スタックです</p>
+
+  <div class="skills-grid">
+    <div class="skill-card fade-in">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-name">Backend</div>
+      <div class="skill-items">Python · Django · REST API · SQLite · PostgreSQL</div>
+    </div>
+    <div class="skill-card fade-in">
+      <div class="skill-icon">🌐</div>
+      <div class="skill-name">Frontend</div>
+      <div class="skill-items">JavaScript (ES6+) · HTML5 · CSS3 · Canvas API</div>
+    </div>
+    <div class="skill-card fade-in">
+      <div class="skill-icon">🤖</div>
+      <div class="skill-name">AI / ML</div>
+      <div class="skill-items">TensorFlow.js · MoveNet · Google Gemini API</div>
+    </div>
+    <div class="skill-card fade-in">
+      <div class="skill-icon">🛠️</div>
+      <div class="skill-name">DevOps / Tools</div>
+      <div class="skill-items">Docker · Git · GitHub · PythonAnywhere · VS Code</div>
+    </div>
+    <div class="skill-card fade-in">
+      <div class="skill-icon">🎮</div>
+      <div class="skill-name">Game Dev</div>
+      <div class="skill-items">ゲームロジック設計 · Canvas 描画 · 当たり判定</div>
+    </div>
+    <div class="skill-card fade-in">
+      <div class="skill-icon">⌨️</div>
+      <div class="skill-name">Firmware</div>
+      <div class="skill-items">C言語 · QMK Firmware · 自作キーボード</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── About ── -->
+<section id="about">
+  <h2 class="section-title fade-in">About</h2>
+  <p class="section-sub fade-in">自己紹介</p>
+
+  <div class="about-grid">
+    <div class="about-text fade-in">
+      <p>
+        Web アプリ開発を中心に活動しています。<strong>Python / Django</strong> によるバックエンド開発を得意とし、
+        AI・機械学習を組み込んだアプリの構築にも取り組んでいます。
+      </p>
+      <p>
+        フロントエンドでは <strong>JavaScript</strong> を使ったインタラクティブな UI 実装やゲーム開発の経験もあります。
+        ブラウザだけで完結する体験を作るのが得意です。
+      </p>
+    </div>
+    <div class="fade-in">
+      <ul class="timeline">
+        <li>
+          <div class="tl-year">2021</div>
+          <div class="tl-title">愛媛大学大学院理工学研究科 修士課程 修了</div>
+          <div>産学連携を通じた開発を複数経験</div>
+        </li>
+        <li>
+          <div class="tl-year">2021</div>
+          <div class="tl-title">SEとして就職</div>
+          <div>実務経験を積む</div>
+        </li>
+        <li>
+          <div class="tl-year">2022</div>
+          <div class="tl-title">専門学校講師として就職</div>
+          <div>IT教育に携わる</div>
+        </li>
+        <li>
+          <div class="tl-year">2026〜</div>
+          <div class="tl-title">TaskNavigation 開発開始</div>
+          <div>複数の Django プロジェクトを並行開発</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact ── -->
+<section id="contact">
+  <div class="contact-box fade-in">
+    <h3>Get in Touch</h3>
+    <p>お仕事のご相談・コラボのお誘いなどお気軽にどうぞ 🙌</p>
+    <div class="social-links">
+      <a href="https://github.com/KomoriSoto" target="_blank" class="social-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.167 6.839 9.49.5.09.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.087.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.683-.104-.253-.447-1.27.098-2.646 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.547 1.376.203 2.394.1 2.646.64.699 1.028 1.592 1.028 2.683 0 3.841-2.337 4.687-4.565 4.934.359.31.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.577.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <p>© 2025 Komori Soto. Built with HTML / CSS / JavaScript.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
